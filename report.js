@@ -1,6 +1,6 @@
 function printPages(pages) {
   console.log("=================");
-  console.log("Page Hits Report:");
+  console.log("PAGE HITS REPORT:");
   console.log("=================");
 
   const sortedPages = sortpages(pages);
@@ -10,7 +10,7 @@ function printPages(pages) {
     console.log(`Found ${hits} links to page: ${url}`);
   }
   console.log("=================");
-  console.log("End Report");
+  console.log("END OF REPORT");
   console.log("=================");
 }
 
